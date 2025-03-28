@@ -1,9 +1,8 @@
 import { faker } from "@faker-js/faker";
 import { bubblesort } from "./bubblesort";
 import { Text } from "./text";
-export { bubblesort } from "./bubblesort";
 
-const fakeNames = Array.from({ length: 100_000 }).map(() =>
+const fakeNames = Array.from({ length: 10_000 }).map(() =>
   faker.person.firstName()
 );
 
